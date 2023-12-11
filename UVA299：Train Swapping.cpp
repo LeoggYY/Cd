@@ -34,7 +34,7 @@ int main()
 				}
 
 			}
-			printf("%d", c);
+			printf("Optimal train swapping takes %d swaps.\n",c);
 		}
 	
 		return 0;
