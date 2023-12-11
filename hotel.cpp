@@ -6,9 +6,6 @@ int main()
 {
 
 	int a[50],b,n;
-	
-
-	
 	scanf("%d", &n);
 
 	while (n--)
