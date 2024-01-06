@@ -12,11 +12,11 @@ int main()
 		sum1 = 0;
 		sum2 = 0;
 		len = strlen(arr);
-		for (int i = 0; i < len; i += 2)//°¸¼Æ
+		for (int i = 0; i < len; i += 2)//Â°Â¸Â¼Ã†
 		{
 			sum1 = arr[i] + sum1;
 		}
-		for (int i = 1; i < len; i += 2)//°ò¼Æ
+		for (int i = 1; i < len; i += 2)//Â°Ã²Â¼Ã†
 		{
 			sum2 = arr[i] + sum2;
 		}
