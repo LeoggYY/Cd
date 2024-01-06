@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+int main()
+{
+	int len;
+	int sum1, sum2;
+	char arr[1000];
+
+	while (scanf("%s", &arr) != EOF)
+	{
+		sum1 = 0;
+		sum2 = 0;
+		len = strlen(arr);
+		for (int i = 0; i < len; i += 2)//°¸¼Æ
+		{
+			sum1 = arr[i] + sum1;
+		}
+		for (int i = 1; i < len; i += 2)//°ò¼Æ
+		{
+			sum2 = arr[i] + sum2;
+		}
+		printf("%d,%d\n\n", sum1, sum2);
+		if (sum1 == sum2 || (sum2 - sum1) % 11 == 0)
+		{
+			printf("%s is a multiple of 11\n", arr);
+		}
+		else printf("%s is not a multiple of 11\n", arr);
+	}
+
+	return 0;
+}
