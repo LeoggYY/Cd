@@ -9,6 +9,7 @@ int main()
 
 	while (scanf("%s", &arr) != EOF)
 	{
+		if (arr[0] == '0') break;
 		sum1 = 0;
 		sum2 = 0;
 		len = strlen(arr);
