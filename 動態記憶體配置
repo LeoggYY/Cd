@@ -4,13 +4,13 @@
 
 int main() {
     int num, sum = 0;
-    //Åª¨ú¦r¦êªø«×
+    //è®€å–å­—ä¸²é•·åº¦
     scanf("%d", &num);
-    //±N´«¦æ¦r¤¸¨ú¥X¡AÁ×§Kfgetsª½±µÅª¨ú
+    //å°‡æ›è¡Œå­—å…ƒå–å‡ºï¼Œé¿å…fgetsç›´æ¥è®€å–
     getchar();
-    //°ÊºA°O¾ĞÅé°t¸m
+    //å‹•æ…‹è¨˜æ†¶é«”é…ç½®
     char* ptr = (char*)malloc(sizeof(char) * num);
-    //Åª¨ú¦r¦ê
+    //è®€å–å­—ä¸²
     gets(ptr);
     for (int i = 0; i < num + 1; i++) {
         if (*(ptr + i) > '0' && *(ptr + i) <= '9')
