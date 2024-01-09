@@ -13,8 +13,8 @@ int main() {
 			if (arr[length] == '{')left++;
 			else if (arr[length] == '}')right++;
 		}
-		if (right > left)printf("¥ª¬A¸¹¸û¥k¬A¸¹ ¤Ö%d­Ó", right - left);
-		else if (left > right)printf("¥ª¬A¸¹¸û¥k¬A¸¹ ¦h%d­Ó", left - right);
+		if (right > left)printf("å·¦æ‹¬è™Ÿè¼ƒå³æ‹¬è™Ÿ å°‘%då€‹", right - left);
+		else if (left > right)printf("å·¦æ‹¬è™Ÿè¼ƒå³æ‹¬è™Ÿ å¤š%då€‹", left - right);
 		else printf("OK");
 		left = 0; right = 0;
 		if (arr[1] == '\0')break;
