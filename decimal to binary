@@ -4,7 +4,7 @@
 int main()
 {
 	int a[10],b,i=0;
-	printf("��J�Ʀr:");
+	printf("¿é¤J¼Æ¦r:");
 	scanf("%d", &b);
 	while (b > 0)
 	{
