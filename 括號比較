@@ -17,7 +17,7 @@ int main() {
 		else if (left > right)printf("左括號較右括號 多%d個", left - right);
 		else printf("OK");
 		left = 0; right = 0;
-		if (arr[1] == '\0')break;
+		//if (arr[1] == '\0')break;
 		memset(arr, '\0', sizeof(arr));
 
 	}
